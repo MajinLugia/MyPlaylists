@@ -1,0 +1,5 @@
+﻿#EXTM3U
+#EXTINF:-1 tvg-name="Tokyo MX1" tvg-language="Japanese" tvg-country="JP" tvg-logo="https://i.ibb.co/F7nPWh2/1280px-Tokyo-metropolitan-television-logo-rainbow-svg.png" group-title="News",Tokyo MX1
+pipe:///usr/bin/env streamlink --stdout --default-stream best --url https://ok.ru/live/6960395525879
+#EXTINF:-1 tvg-name="France 24" tvg-language="French" tvg-country="FR" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwngwSBIFO5UNdycjzkUjIRFEq0n5YWKTOgsfbgKdoQ=s176-c-k-c0x00ffffff-no-rj-mo" group-title="News",France 24
+pipe:///usr/bin/env streamlink --stdout --default-stream 720p,best --url https://www.youtube.com/@CutlerycornerNetwork/live
